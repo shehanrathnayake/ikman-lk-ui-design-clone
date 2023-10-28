@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/home.css">
     <title>ikman</title>
@@ -17,20 +18,22 @@
             <div id="header-top">
                 <div id="header-top-left">
                     <div id="logo">
-                        <img src="" alt="">
+                        <img src="img/logo-ikman.png" alt="">
                     </div>
                     <span>All ads</span>
-                    <div class="language">
-                        <div>සිංහල</div>
-                        <div>தமிழ்</div>
+                    <div id="language">
+                        <div id="sinhala">සිංහල</div>
+                        <div id="tamil">தமிழ்</div>
                     </div>
                 </div>
 
                 <div id="header-top-right">
-                    <div class="profile">
+                    <div class="chat-profile">
+                        <img id="chat-image" src="img/chat-image.png" alt="">
                         <span>Chat</span>
                     </div>
-                    <div class="profile">
+                    <div class="chat-profile">
+                        <img id="profile-image" src="img/profile-image.png" alt="">
                         <span>Login</span>
                     </div>
                     <a href="#">POST YOUR AD</a>
@@ -39,12 +42,17 @@
             </div>
             <div id="header-lower">
                 <div id="location">
-                    <span>All of Sri Lanka</span>
+                    <span class="material-symbols-outlined">
+                        location_on
+                        </span>
+                    <span id="location-name">All of Sri Lanka</span>
                 </div>
                 <div id="search">
                     <input type="text">
                     <div id="search-icon">
-
+                        <span class="material-symbols-outlined">
+                            search
+                            </span>
                     </div>
                 </div>
             </div>
@@ -163,7 +171,7 @@
         <div class="container">
             <h3>Quick links</h3>
             <div id="category-boxes">
-                <div class="category">
+                <div class="category-links">
                     <h4>146,264 ads in Electronics</h4>
                     <a href="">Mobile Phones</a><span> | </span>
                     <a href="">Cameras & Camcorders</a><span> | </span>
@@ -171,7 +179,7 @@
                     <a href="">TVs</a><span> | </span>
                     <a href="">Air Conditions & Electrical fittings</a>
                 </div>
-                <div class="category">
+                <div class="category-links">
                     <h4>86,313 ads in Property</h4>
                     <a href="">Land</a><span> | </span>
                     <a href="">House For Sale</a><span> | </span>
@@ -179,7 +187,7 @@
                     <a href="">Apartments for Sale</a><span> | </span>
                     <a href="">Apartment Rentals</a>
                 </div>
-                <div class="category">
+                <div class="category-links">
                     <h4>8,625 ads in jobs</h4>
                     <a href="">Data Entry Operator</a><span> | </span>
                     <a href="">Driver</a><span> | </span>
@@ -187,7 +195,7 @@
                     <a href="">Clerk</a><span> | </span>
                     <a href="">Sales Executive</a>
                 </div>
-                <div class="category">
+                <div class="category-links">
                     <h4>73,484 ads in Vehicles</h4>
                     <a href="">Cars</a><span> | </span>
                     <a href="">Motorbikes</a><span> | </span>

@@ -1,0 +1,144 @@
+header {
+    height: 250px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+header .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 20px;
+}
+
+header #header-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#header-top-left,
+#header-top-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#header-top-left span {
+    font-weight: 700;
+}
+
+.chat-profile {
+    display: flex;
+    align-items: center;
+}
+
+#profile-image {
+    width: 37px;
+    height: auto;
+}
+
+#language {
+    display: flex;
+}
+
+#language * {
+    border: 1px solid #007168;
+    padding: 7px 10px;
+    /* border-radius: 20px; */
+}
+
+#sinhala {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#tamil {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.chat-profile {
+    gap: 5px;
+}
+
+#language div,
+.chat-profile span {
+    font-size: calc(1rem - 2px);
+}
+
+#header-top-right a {
+    text-decoration: none;
+    color: #673500;
+    font-weight: 700;
+    padding: 15px;
+    background-color: var(--accent-color);
+    border-radius: 4px;
+}
+
+header #header-lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#location {
+    display: flex;
+    align-items: flex-start;
+    padding: 5px 15px;
+    background-color: #0071688a;
+    border-radius: 20px;
+    gap: 5px;
+    padding-top: 10px;
+}
+
+#location .material-symbols-outlined {
+    font-size: 1.4rem;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 15px;
+    background-color: white;
+    width: 800px;
+    height: 58px;
+    border-radius: 40px;
+    gap: 30px;
+    /* position: relative; */
+}
+
+#search input {
+    left: 0;
+    height: 30px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    width: calc(100% - 110px);
+}
+
+#search-icon {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+}
+
+
+
+#search-icon .material-symbols-outlined {
+    font-size: 2.7rem;
+    color: #673500;
+}

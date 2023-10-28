@@ -5,4 +5,28 @@
     --primary-color: #149777;
     --accent-color: #FFC800;
     --surface-container-color: #F3F6F5;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+header,
+section,
+article,
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 992px;
 }
