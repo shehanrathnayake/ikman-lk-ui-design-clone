@@ -10,17 +10,19 @@ header .container {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    background-color: aqua;
 }
 
-header img {
+header .logo img {
     height: 20px;
 }
 
-header #header-top {
+#header-top {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    background-color: #673500;
 }
 
 #header-top-left,
@@ -51,7 +53,6 @@ header #header-top {
 #language * {
     border: 1px solid #007168;
     padding: 7px 10px;
-    /* border-radius: 20px; */
 }
 
 #sinhala {
@@ -113,7 +114,6 @@ header #header-lower {
     height: 58px;
     border-radius: 40px;
     gap: 30px;
-    /* position: relative; */
 }
 
 #search input {
@@ -141,4 +141,23 @@ header #header-lower {
 #search-icon .material-symbols-outlined {
     font-size: 2.7rem;
     color: #673500;
+}
+
+#sample-ad {
+    width: 100%;
+}
+
+.categories {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.category-block {
+    display: flex;
+    width: 25%;
+}
+
+.category-text {
+    display: flex;
+    flex-direction: column;
 }
