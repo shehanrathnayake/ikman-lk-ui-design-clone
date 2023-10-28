@@ -1,0 +1,8 @@
+:root {
+    box-sizing: border-box;
+
+    /* Colors */
+    --primary-color: #149777;
+    --accent-color: #FFC800;
+    --surface-container-color: #F3F6F5;
+}
