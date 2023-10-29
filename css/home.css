@@ -256,3 +256,7 @@ header #header-lower {
     text-decoration: none;
     color: #2F3432;
 }
+
+#about .container{
+    color: #707676;
+}
